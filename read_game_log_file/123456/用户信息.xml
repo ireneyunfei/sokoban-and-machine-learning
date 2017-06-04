@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Answer>
+  <BaseInfo>
+    <GameName>用户信息</GameName>
+  </BaseInfo>
+  <GameInfo>
+    <Level>
+      <编号>123456</编号>
+      <性别>女</性别>
+      <出生日期>123456年111月222日</出生日期>
+      <测试日期>123年5月6日</测试日期>
+      <姓名>查查</姓名>
+      <年级>其他</年级>
+    </Level>
+  </GameInfo>
+</Answer>

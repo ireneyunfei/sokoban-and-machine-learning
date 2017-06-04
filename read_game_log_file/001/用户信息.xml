@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Answer>
+  <BaseInfo>
+    <GameName>用户信息</GameName>
+  </BaseInfo>
+  <GameInfo>
+    <Level>
+      <编号>001</编号>
+      <性别>男</性别>
+      <出生日期>1000年1月1日</出生日期>
+      <测试日期>1年1月1日</测试日期>
+      <姓名>111111</姓名>
+      <年级>初一</年级>
+    </Level>
+  </GameInfo>
+</Answer>

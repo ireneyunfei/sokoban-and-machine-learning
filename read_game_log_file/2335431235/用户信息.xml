@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Answer>
+  <BaseInfo>
+    <GameName>用户信息</GameName>
+  </BaseInfo>
+  <GameInfo>
+    <Level>
+      <编号>2335431235</编号>
+      <性别>男</性别>
+      <出生日期>1995年5月2日</出生日期>
+      <测试日期>2017年11111月11111日</测试日期>
+      <姓名>杨轩</姓名>
+      <年级>初二</年级>
+    </Level>
+  </GameInfo>
+</Answer>

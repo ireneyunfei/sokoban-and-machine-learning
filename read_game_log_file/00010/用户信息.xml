@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Answer>
+  <BaseInfo>
+    <GameName>用户信息</GameName>
+  </BaseInfo>
+  <GameInfo>
+    <Level>
+      <编号>00010</编号>
+      <性别>男</性别>
+      <出生日期>121212年12月12日</出生日期>
+      <测试日期>111111年11月11日</测试日期>
+      <姓名>王治乔</姓名>
+      <年级>初三</年级>
+    </Level>
+  </GameInfo>
+</Answer>

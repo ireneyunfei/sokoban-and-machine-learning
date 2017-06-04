@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Answer>
+  <BaseInfo>
+    <GameName>用户信息</GameName>
+  </BaseInfo>
+  <GameInfo>
+    <Level>
+      <编号>2013</编号>
+      <性别>男</性别>
+      <出生日期>1290年5月4日</出生日期>
+      <测试日期>1111年3月4日</测试日期>
+      <姓名>王ss</姓名>
+      <年级>高三</年级>
+    </Level>
+  </GameInfo>
+</Answer>
