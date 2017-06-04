@@ -14,4 +14,7 @@ All these tools are contained in Anaconda, a data science platform.
 
 In the folder "tutorial", I provide those codes in html and pdf format, which is more friendly to novices.
 
+Besides, in the folder "read_game_log_file", I wrote a script "extract.py" to extract data from logfiles of four games: Gene Labs, Sokoban, London Tower and CTC.
+
 Good luck.
+
