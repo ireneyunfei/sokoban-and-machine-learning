@@ -3,6 +3,7 @@ output:
   pdf_document: default
   html_document: default
 ---
+# Tutorial for the Analysis of Sokoban Logfiles using Machine Learning (2)
 # Using R to process extracted data from logfiles
 
 ## Introduction
@@ -32,7 +33,7 @@ library(psych)
 ## Generate more features
 First of all, we read the csv file using the function "fread", provided by data.table, which enables fast reading of csv file.
 ```{r}
-dt = fread('extracted_data.csv')
+dt = fread(file.path('working_data','extracted_data.csv'))
 head(dt,3)
 ```
 
@@ -137,7 +138,7 @@ After these steps, we get our features all prepared.
 Here we need to merge the features with y variables. 
 
 ```{r, message=FALSE, warning=FALSE}
-yvar = read.spss('Grade 1+2-others-0313.sav', to.data.frame = T) %>%  
+yvar = read.spss(file.path('raw_data','Grade 1+2-others-0313.sav'), to.data.frame = T) %>%  
   # read.spss comes from the foreign package.
   select(., ID, contains('TM'), Raven) %>% data.table 
 # We only select math grades and Raven scores.
@@ -157,13 +158,13 @@ Mpolar = ndt[Mperc>=0.75] %>% mutate(., Mperc=1)
 Mpolar = ndt[Mperc<=0.25] %>% mutate(., Mperc=0) %>% rbind(.,Mpolar) %>% 
   select(., -(ID:MR1))
 Mpolar = Mpolar[complete.cases(Mpolar),] # keep the complete cases only.
-write.csv(Mpolar, 'Mpolar.csv')
+write.csv(Mpolar, file.path('working_data','Mpolar.csv'))
 
 Rpolar = ndt[Rperc>=0.75] %>% mutate(., Rperc=1)
 Rpolar = ndt[Rperc<=0.26] %>% mutate(., Rperc=0) %>% rbind(.,Rpolar) %>%
   select(., -(ID:Raven), -(MR1:Mperc))
 Rpolar = Rpolar[complete.cases(Rpolar),] 
-write.csv(Rpolar, 'Rpolar.csv')
+write.csv(Rpolar, file.path('working_data','Rpolar.csv'))
 
 ```
 
