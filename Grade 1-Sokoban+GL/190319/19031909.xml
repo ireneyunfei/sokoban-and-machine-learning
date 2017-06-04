@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Answer>
+  <BaseInfo>
+    <GameName>用户信息</GameName>
+  </BaseInfo>
+  <GameInfo>
+    <Level>
+      <学号>190319</学号>
+      <性别>男</性别>
+      <出生日期>2003年12月28日</出生日期>
+      <测试日期>2016年12月31日</测试日期>
+      <姓名>任贺阳</姓名>
+    </Level>
+  </GameInfo>
+</Answer>

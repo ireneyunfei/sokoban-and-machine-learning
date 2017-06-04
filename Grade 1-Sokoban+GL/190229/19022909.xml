@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Answer>
+  <BaseInfo>
+    <GameName>用户信息</GameName>
+  </BaseInfo>
+  <GameInfo>
+    <Level>
+      <学号>190229</学号>
+      <性别>女</性别>
+      <出生日期>2004年7月11日</出生日期>
+      <测试日期>2016年2月22日</测试日期>
+      <姓名>张颜开</姓名>
+    </Level>
+  </GameInfo>
+</Answer>

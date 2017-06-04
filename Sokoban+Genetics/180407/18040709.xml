@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Answer>
+  <BaseInfo>
+    <GameName>用户信息</GameName>
+  </BaseInfo>
+  <GameInfo>
+    <Level>
+      <学号>180407</学号>
+      <性别>女</性别>
+      <出生日期>2003年1月17日</出生日期>
+      <测试日期>2016年10月19日</测试日期>
+      <姓名>裴钰</姓名>
+    </Level>
+  </GameInfo>
+</Answer>

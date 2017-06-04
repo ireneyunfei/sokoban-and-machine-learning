@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Answer>
+  <BaseInfo>
+    <GameName>用户信息</GameName>
+  </BaseInfo>
+  <GameInfo>
+    <Level>
+      <学号>180204</学号>
+      <性别>男</性别>
+      <出生日期>2003年11月15日</出生日期>
+      <测试日期>2016年10月19日</测试日期>
+      <姓名>吴炅</姓名>
+    </Level>
+  </GameInfo>
+</Answer>
