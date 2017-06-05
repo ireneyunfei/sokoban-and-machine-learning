@@ -4,7 +4,9 @@ This project is my undergraduate thesis. I implemented Machine Learning in the a
 to predict one's math grades and Raven intelligence.
 
 The codes are divided into three parts: reading the data, cleaning the data, and finally training the model. In addition, I also provide 
-an appendix to solve the Sokoban model, which is based on code published on the internet (I'm sorry, I forget the source).
+an appendix to solve the Sokoban model, which is based on code published on the internet (I'm sorry, I forget the source). 
+
+The order to run the code is: The appendix -> Part I -> Part II -> Part III.
 
 The first and the last part is written in Python (those ends with .ipynb). You can edit and test the code with **Jupyter Notebook**.
 
