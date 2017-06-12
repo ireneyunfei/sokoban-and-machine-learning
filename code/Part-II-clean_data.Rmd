@@ -33,6 +33,7 @@ library(psych)
 ## Generate more features
 First of all, we read the csv file using the function "fread", provided by data.table, which enables fast reading of csv file.
 ```{r}
+setwd('..')
 dt = fread(file.path('working_data','extracted_data.csv'))
 head(dt,3)
 ```
